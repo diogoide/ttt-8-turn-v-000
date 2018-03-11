@@ -17,7 +17,6 @@ def valid_move?(board,index)
      return true
      else
        return false
-       puts "Please enter 1-9:"
      end
    end
 

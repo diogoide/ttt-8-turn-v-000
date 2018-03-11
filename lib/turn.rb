@@ -1,8 +1,3 @@
-def turn(board)
-  puts "Please enter 1-9:"
-  gets input_to_index(board)
-end
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -25,4 +20,9 @@ def valid_move?(board,index)
 
   def move(board, index, token="X")
     board[index] = token
+  end
+
+  def turn(board)
+    puts "Please enter 1-9:"
+    gets input_to_index(board)
   end

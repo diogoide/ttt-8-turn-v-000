@@ -1,6 +1,6 @@
 def turn(board)
   puts "Please enter 1-9:"
-  until board[index] != "X"
+  until board[index] = "" || board[index] = " "
   turn(board)
 end
 end
@@ -14,7 +14,7 @@ def display_board(board)
 end
 
 def valid_move?(board,index)
-      if index.between?(0,8) && board[index] == " " || board[index] == "" 
+      if index.between?(0,8) && board[index] == " " || board[index] == ""
      return true
      else
        return false

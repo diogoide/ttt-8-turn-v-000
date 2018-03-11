@@ -1,7 +1,5 @@
 def turn(board)
   puts "Please enter 1-9:"
-  until board[index] = "" || board[index] = " "
-  turn(board)
 end
 end
 

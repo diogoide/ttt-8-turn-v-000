@@ -1,6 +1,7 @@
 def turn(board)
-  until board[index] != "X"
   puts "Please enter 1-9:"
+  until board[index] != "X"
+  turn(board)
 end
 end
 

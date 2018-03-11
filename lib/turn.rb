@@ -14,7 +14,7 @@ def display_board(board)
 end
 
 def valid_move?(board,index)
-      if board[index] == " " || board[index] == "" && index.between?(0,8)
+      if index.between?(0,8) && board[index] == " " || board[index] == "" 
      return true
      else
        return false

@@ -1,6 +1,6 @@
 def turn(board)
   puts "Please enter 1-9:"
-  input_to_index
+  input_to_index(board)
 end
 
 def display_board(board)
@@ -19,8 +19,8 @@ def valid_move?(board,index)
      end
    end
 
-  def input_to_index(index)
-    input_to_index = index.to_i - 1
+  def input_to_index(board)
+    input_to_index = board.to_i - 1
   end
 
   def move(board, index, token="X")

@@ -26,4 +26,4 @@ def valid_move?(board,index)
     puts "Please enter 1-9:"
     input = gets.iput_to_index.strip
 end
-end 
+end

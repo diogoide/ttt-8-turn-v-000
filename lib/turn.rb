@@ -27,7 +27,7 @@ def valid_move?(board,index)
     gets input_to_index(board)
     if valid_move?(board,index) return true
       return "X"
-    else 
+    else
       puts "Please enter 1-9:"
   end
 end

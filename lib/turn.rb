@@ -31,3 +31,4 @@ def valid_move?(board,index)
       display_board(board)
       turn(board)
 end
+end

@@ -27,3 +27,4 @@ def valid_move?(board,index)
     input = gets.strip
     input_to_index
 end
+end
